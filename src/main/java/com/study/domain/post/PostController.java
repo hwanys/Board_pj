@@ -15,7 +15,7 @@ public class PostController {
     public String openPostWrite(Model model) {
         String title = "제목",
                 content = "내용",
-                writer = "홍길동";
+        writer = "홍길동";
 
         model.addAttribute("t", title);
         model.addAttribute("c", content);
